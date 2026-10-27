@@ -1,0 +1,14 @@
+{
+  "name": "rentease-root",
+  "version": "1.0.0",
+  "description": "RentEase — Student Rental & Essential Items Platform",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build"
+  },
+  "keywords": ["rentease", "student-rentals", "react", "express", "supabase"],
+  "author": "RentEase Team",
+  "license": "MIT"
+}
